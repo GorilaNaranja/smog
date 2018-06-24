@@ -21,6 +21,7 @@ HCHO + hv → H2 + CO | r4b = k4b·[HCHO]
 HCHO + OH + O2 → HO2 + CO + H2O | r5   = k5·[HCHO]·[OH]
 HO2 + NO → NO2 + OH | r6   = k6·[HO2]·[NO]
 NO2 + OH → HNO3 | r7   = k7·[NO2]·[OH]
+
 _M= catalizador en la formación de ozono con una concentración constante en la atmósfera igual a 10 ppm.
 El O2 también se considera constante, por lo que su valor ya está incluido en la constante cinética (k)._
 
@@ -36,6 +37,7 @@ d[HCHO]/dt= |  – r4a – r4b – r5 | - ( k4a·[HCHO] + k4b·[HCHO] + k5·[HCH
 d[OH]/dt= |  r6 – ( r5 + r7 ) |   k6·[HO2]·[NO] – (k5·[HCHO]·[OH] + k7·[NO2]·[OH])
 d[HO2]/dt= |  (2·r4a+r5)-r6 | (2·k4a·[HCHO] + k5·[HCHO]·[OH] ) - k6·[HO2]·[NO]
 d[HNO3]/dt= |  r7 | k7·[NO2]·[OH]
+
 _Nota: Como las concentraciones de M y O2 son constantes, no necesitamos plantear sus ecuaciones de balance. Tampoco se plantean ecuaciones para el CO, H2 ni H2O._
 
 Para este ejemplo se han definido las siguientes concentraciones iniciales:
